@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server frontend -p 3000"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "cheerio": "^1.0.0",
     "node-cron": "^3.0.3",
     "puppeteer": "^24.4.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
