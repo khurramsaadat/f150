@@ -1,0 +1,34 @@
+@media print {
+    header {
+        background-color: white !important;
+        color: black !important;
+        padding: 20px 0 !important;
+    }
+
+    .back-button,
+    .social-share,
+    footer {
+        display: none !important;
+    }
+
+    .tips-section {
+        page-break-inside: avoid;
+    }
+
+    .tips h2 {
+        color: black !important;
+    }
+
+    .tips li {
+        color: black !important;
+        border-bottom: 1px solid #ccc !important;
+    }
+
+    .fas {
+        color: black !important;
+    }
+
+    @page {
+        margin: 2cm;
+    }
+} 
