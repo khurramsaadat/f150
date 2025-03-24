@@ -207,6 +207,17 @@ footer {
     opacity: 1;
 }
 
+.social-links a[title*="WhatsApp"] {
+    color: #25D366;
+}
+
+.social-links a[title*="WhatsApp"]:hover {
+    background-color: #25D366;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(37, 211, 102, 0.2);
+}
+
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 20px;
