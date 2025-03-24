@@ -49,14 +49,22 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <div class="home-icon">
-                    <a href="index.html" title="Home">
+                <div class="nav-icon">
+                    <a href="index.html" title="Home" class="home-icon desktop-only">
                         <i class="fas fa-home"></i>
                     </a>
+                    <button class="menu-toggle mobile-only" aria-label="Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <nav class="mobile-nav">
+                        <ul>
+                            <li><a href="tips.html"><i class="fas fa-lightbulb"></i> Car Buying Tips</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="header-text">
-                    <h1>F-150 | 2021 in UAE</h1>
-                    <p>Only GCC !!</p>
+                    <h1>Find Used Cars in UAE</h1>
+                    <p>Select a website to start browsing</p>
                 </div>
             </div>
         </div>
@@ -204,5 +212,23 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+        
+        menuToggle.addEventListener('click', function() {
+            mobileNav.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!menuToggle.contains(e.target) && !mobileNav.contains(e.target)) {
+                mobileNav.classList.remove('active');
+            }
+        });
+    });
+    </script>
 </body>
 </html>
