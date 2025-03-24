@@ -3,6 +3,7 @@
 - my IDE is cursor
 - always read @codebase
 - always read the @readme.md file. and if missing suggest.
+- Fill in readme.md as I progress in the project. 
 - After user provide a prompt, always ask question for improvments in design/code etc and never proceed without it. 
 check the system date so you always know the current date.
-when i press save, suggest me to push all pages anbd codes to github. except what is mentioned in .gitignore file.
+when i press save, suggest me to push all pages and codes to github. except what is mentioned in .gitignore file.

@@ -1,4 +1,4 @@
-# UAE Used Cars Classifieds Directory
+# Ford F-150 in UAE - Year 2021
 
 A simple web directory that aggregates links to major UAE car classifieds websites, focusing on used car listings.
 
@@ -8,23 +8,15 @@ A simple web directory that aggregates links to major UAE car classifieds websit
 - Car buying tips and guidelines
 - Mobile-responsive design
 
-## Websites Included
-- Dubizzle
-- YallaMotor
-- Dubicars
-- Cars24
-- CarSwitch
-- Facebook Market place
-
 ## Local Development
-1. Clone the repository
-2. Navigate to the project directory
-3. Run a local server to view the site
+- Navigate to the project directory
+- Run a local server to view the site
 
 ## Deployment
-The site is deployed on Netlify and can be accessed at [https://f150-uae.netlify.app/]
+https://f150-uae.netlify.app
 
 ## Tech Stack
 - HTML5
 - CSS3
+- Javascript
 - Font Awesome Icons 
